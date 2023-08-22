@@ -1,4 +1,10 @@
 
+*{
+    scroll-behavior: smooth;
+}
+
+
+
 body{
     background-color: rgb(255, 89, 0);
 }
@@ -226,6 +232,7 @@ a{
 display: flex;
 align-items: center;
 justify-content: center;
+flex-wrap: wrap;
 }
 
 .cards1{
@@ -236,6 +243,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    margin-left: 10px;
 }
 .p3{
     width: 150px;
@@ -244,4 +252,14 @@ justify-content: center;
     border: solid rgba(255, 255, 255, 0.682) 6px;
     background-size: cover;
     margin-top: 30px;
+}
+.stars{
+    display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   
+}
+.icon{
+    margin-left: 15px;
 }
